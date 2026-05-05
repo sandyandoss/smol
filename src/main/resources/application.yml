@@ -4,8 +4,12 @@ spring:
     username: ${DB_USERNAME:root}
     password: ${DB_PASSWORD:Luckytobeyoung1!}
     driver-class-name: com.mysql.cj.jdbc.Driver
-
-
+  web:
+    resources:
+      static-locations: classpath:/static/
+      add-mappings: true
+  mvc:
+    static-path-pattern: /static/**
   jpa:
     hibernate:
       ddl-auto: update
