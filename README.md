@@ -248,5 +248,5 @@ src/main/java/com/smol/shortener/
 
 ## 🙋 Author
 
-Built by **[Your Name]** as a backend portfolio project.  
+Built by **Sandy** as a backend portfolio project.  
 Feel free to fork, star ⭐, and contribute!
